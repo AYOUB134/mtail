@@ -1,24 +1,50 @@
 import React, { useState, useEffect, useRef } from 'react';
+import  Proimg1 from './projectimgs/webpro1.PNG'
+import  Proimg2 from './projectimgs/webapp2.PNG'
+import  Proimg3 from './projectimgs/webpro3.PNG'
+import  Proimg4 from './projectimgs/webpro4.PNG'
+// import  Proimg5 from './projectimgs/canyundashborad.PNG'
+// import  Proimg5 from './projectimgs/webapp1.PNG'
+import  Proimg5 from './projectimgs/webpro2.PNG'
+import  Proimg6 from './projectimgs/canyundashborad.PNG'
 
 // Sample project data
 const projects = [
   {
-    title: 'Project One',
-    description: 'An innovative project using modern technologies.',
-    image: 'https://via.placeholder.com/400', // Placeholder image
-    link: '#',
+    title: 'MERN Mediastream',
+    description: 'A full-stack application with MongoDB, Express, React, and Node.js for media uploading and streaming. Showcases the MERN stack’s scalability.',
+    image: Proimg1, // Placeholder image
+    link: 'http://mediastream2.mernbook.com/',
   },
   {
-    title: 'Project Two',
-    description: 'A groundbreaking app with seamless user experience.',
-    image: 'https://via.placeholder.com/400',
-    link: '#',
+    title: 'Ant Design Mobile',
+    description: 'A mobile UI library with smooth animations and customizable themes. Offers a comprehensive set of components for engaging mobile apps.',
+    image: Proimg2,
+    link: 'https://mobile.ant.design/',
   },
   {
-    title: 'Project Three',
-    description: 'A robust web solution tailored for business needs.',
-    image: 'https://via.placeholder.com/400',
-    link: '#',
+    title: 'GrapesJS',
+    description: 'An open-source web builder for creating HTML templates without coding. Features drag-and-drop tools and responsive design options.',
+    image: Proimg3,
+    link: 'https://grapesjs.com/',
+  },
+  {
+    title: 'Admin Panel',
+    description: 'A data management panel with tables, forms, and nested views. Provides a comprehensive dashboard for organizing and monitoring records.',
+    image: Proimg4,
+    link: 'https://panjiachen.github.io/vue-admin-template/#/example/table',
+  },
+  {
+    title: 'B-School Website Redesign',
+    description: 'A business school website with sections on courses, knowledge, events, and fees. Includes management profiles and a contact form.',
+    image: Proimg5,
+    link: 'https://learning-zone.github.io/website-templates/b-school-free-education-html5-website-template/',
+  },
+  {
+    title: 'Admin Dashboard CMS',
+    description: 'An admin dashboard for managing users, posts, live applications, and more. Provides an overview of system activities and management features.',
+    image: Proimg6,
+    link: 'https://kanuya.love/index',
   },
 ];
 

@@ -1,25 +1,25 @@
 import React, { useState, useEffect, useRef } from 'react';
-
+import userIcon from './usericon.jpeg'
 // Sample review data
 const reviews = [
   {
-    name: 'John Doe',
+    name: 'AHMED ALI',
     review: 'Amazing experience! The project exceeded my expectations with seamless execution.',
     rating: 5,
-    image: 'https://via.placeholder.com/150', // Placeholder image
+    image: userIcon, // Placeholder image
   },
   {
-    name: 'Jane Smith',
+    name: '  MUHAMAMD AYOUB',
     review: 'Fantastic service and outstanding results. Highly recommend their work!',
     rating: 4,
-    image: 'https://via.placeholder.com/150',
-  },
+    image: userIcon,   },
   {
-    name: 'Alice Johnson',
+    name: 'SEEMA PARVEEN KANGO',
     review: 'Professional and efficient, delivered exactly what was promised.',
     rating: 5,
-    image: 'https://via.placeholder.com/150',
-  },
+    image: userIcon,  
+   },
+
 ];
 
 export default function Reviews() {

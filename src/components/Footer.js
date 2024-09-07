@@ -66,7 +66,7 @@ export default function Footer() {
         {/* Social Media */}
         <div className="flex items-center space-x-6 animate-slideIn">
           <a
-            href="https://facebook.com"
+            href="https://web.facebook.com/profile.php?id=61565208125217"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center transition-transform duration-500 hover:scale-110"
@@ -78,7 +78,7 @@ export default function Footer() {
             />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/mtailabs/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center transition-transform duration-500 hover:scale-110"
@@ -90,7 +90,7 @@ export default function Footer() {
             />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/mtai-software-labs-108b73305/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center transition-transform duration-500 hover:scale-110"

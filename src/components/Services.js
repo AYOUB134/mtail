@@ -1,14 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+// Updated technologies array to include new backend expertise
 const technologies = [
   { name: 'Web Development', icon: '💻' },
   { name: 'App Development', icon: '📱' },
 ];
 
+// Updated serviceDetails with additional PHP and Laravel information
 const serviceDetails = {
   'Web Development': [
     'Expertise in frontend technologies like React.js',
-    'Backend systems with Node.js',
+    'Backend systems with Node.js, PHP, and Laravel',
     'Create attractive and valuable solutions',
     'Ensure intuitive and efficient user experiences',
     'Deliver seamless user experiences',
