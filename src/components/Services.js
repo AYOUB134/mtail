@@ -1,27 +1,37 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-// Updated technologies array to include new backend expertise
+// Updated technologies array to include UI/UX Designing
 const technologies = [
   { name: 'Web Development', icon: '💻' },
   { name: 'App Development', icon: '📱' },
+  { name: 'UI/UX Designing', icon: '🎨' },
 ];
 
-// Updated serviceDetails with additional PHP and Laravel information
+// Updated serviceDetails with more technologies and UI/UX section
 const serviceDetails = {
   'Web Development': [
-    'Expertise in frontend technologies like React.js',
+    'Expertise in frontend technologies like React.js, Angular, and Vue.js',
     'Backend systems with Node.js, PHP, and Laravel',
-    'Create attractive and valuable solutions',
-    'Ensure intuitive and efficient user experiences',
-    'Deliver seamless user experiences',
+    'Proficient in full-stack development with MERN stack (MongoDB, Express, React, Node.js)',
+    'Expertise in CMS like WordPress, Drupal, and Magento',
+    'Building scalable and maintainable applications with clean architecture',
+    'Ensure intuitive and efficient user experiences with dynamic, responsive UIs',
   ],
   'App Development': [
-    'Passionate about developing clean, minimalistic mobile apps',
-    'Expertise in Swift for iOS development',
-    'Proficient in Kotlin for Android development',
-    'Create attractive and valuable solutions',
-    'Ensure intuitive and efficient user experiences',
-    'Deliver seamless user experiences',
+    'Native mobile app development using Swift for iOS and Kotlin for Android',
+    'Cross-platform development using React Native and Flutter',
+    'Backend services with Node.js, Firebase, and AWS for app deployment',
+    'Integration with RESTful APIs and GraphQL for seamless data fetching',
+    'Ensure smooth app performance with optimized code and reduced load times',
+    'Provide ongoing support and updates for app improvements and user engagement',
+  ],
+  'UI/UX Designing': [
+    'Expert in creating wireframes, prototypes, and mockups using tools like Figma, Sketch, and Adobe XD',
+    'Design user-centric interfaces following design thinking methodologies',
+    'Ensure seamless and intuitive user experiences with a focus on accessibility and usability',
+    'Proficient in creating mobile-first designs, responsive across all devices',
+    'Expert in UI frameworks like Material UI, Ant Design, and Tailwind CSS',
+    'Deliver high-fidelity designs with attention to typography, color theory, and branding consistency',
   ],
 };
 
@@ -77,12 +87,12 @@ export default function TechnologyServices() {
   return (
     <div
       ref={sectionRef}
-      className={`w-full p-8 rounded-lg shadow-lg bg-gradient-to-br from-gray-800 to-black text-white transition-transform duration-1000 ${
+      className={`w-full p-8  shadow-lg bg-gradient-to-br from-gray-800 to-black text-white transition-transform duration-1000 ${
         isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
-      }`}
+      }`} 
     >
       {/* Technology Options */}
-      <div className="flex justify-center space-x-16 mb-8 animate-slideIn">
+      <div className="flex justify-center space-x-16 mb-8 animate-slideIn" id="services">
         {technologies.map((tech, index) => (
           <div
             key={index}

@@ -39,9 +39,9 @@ export default function Contact() {
   }, []);
 
   return (
-    <div
+    <div id="contact"
       ref={formRef}
-      className={`w-full p-8 rounded-lg shadow-lg bg-gradient-to-br from-gray-800 to-black text-white transition-transform duration-1000 ${
+      className={`w-full p-8  shadow-lg bg-gradient-to-br from-gray-800 to-black text-white transition-transform duration-1000 ${
         isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
       }`}
     >
